@@ -20,7 +20,7 @@ func Multiply(a, b int) int {
 	return a * b
 }
 
-// divisions
+// divisions of two no
 func Division(a, b int) (int, error) {
 	if b == 0 {
 		return 0, myError{"Division by zero occurred"}
